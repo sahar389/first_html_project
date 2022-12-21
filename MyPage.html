@@ -5,7 +5,7 @@
         JavaScript Develloper -Site Portfolio dévellopeur
     </title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <nav>
@@ -23,7 +23,7 @@
     </ul>
 </nav>
 <header>
-    <div>
+    <div class="header_left">
         <small> <span class="material-symbols-outlined">
             home_pin
             </span> Tunisie </small>
@@ -39,27 +39,28 @@
                 vie associative en participant aux plusieurs <br/>
                 événements et projets.
             </p>
+           
             
-            </div>
+            
             <div class="links">
                 <a href="#opening">about</a> <span class="material-symbols-outlined">
                     near_me
                     </span>
 
-            </div>
-            <div class="links">
+            
+
                 <a href="#direct">work</a> <span class="material-symbols-outlined">
                     near_me
                     </span>
 
-            </div>
-            <div class="links">
+            
+            
                 <a href="file:///C:/Users/hp/Desktop/first_html_project/resume.html">resume</a> <span class="material-symbols-outlined">
                     near_me
                     </span>
 
-            </div>
-            <div class="links">
+            
+            
                 <a href="#nee">Contact</a> <span class="material-symbols-outlined">
                     near_me
                     </span>
@@ -68,10 +69,11 @@
            
          
     </div>
-    <div>  
-<img src="https://nadiazheng.com/wp-content/uploads/2015/12/Montreal-personal-branding-linkedin-profile-professional-headshot-by-nadia-zheng-800x1000.jpg" alt="profile_photo"
-        />
-    </div>
+    <div class="header_right">  
+        <img src="https://nadiazheng.com/wp-content/uploads/2015/12/Montreal-personal-branding-linkedin-profile-professional-headshot-by-nadia-zheng-800x1000.jpg" alt="profile_photo"
+                />
+            </div>
+  
 </header>
 <section class="about">
     <h4> about me </h4>
@@ -79,47 +81,64 @@
 
     Meanwhile, she vastly improved the productivity of her department by implementing strategic project management methods and ensuring a work-life balance for her team. Madison believes mindfulness in the workplace is key to success—a tenet she lives out through her interests in yoga, meditation, gardening, and painting. 
 </p> 
-<img alt="signature" src="https://www.signwell.com/assets/vip-signatures/muhammad-ali-signature-6a40cd5a6c27559411db066f62d64886c42bbeb03b347237ffae98b0b15e0005.svg"> 
+<img class="signature" alt="signature" src="https://www.signwell.com/assets/vip-signatures/muhammad-ali-signature-6a40cd5a6c27559411db066f62d64886c42bbeb03b347237ffae98b0b15e0005.svg"> 
 </section>
-<section class="images">
-    <div id="direct">
-        <div>
+<section id="direct" class="images" >
+    <div class="image_card">
+        <div class="image-left">
+    
+        
             <img src="https://www.filbuild.com/b2b/geos/assets/wonders.jpg" alt=" image_work">
+        </div>
+        <div class="image-right">
             <h4>Explore</h4>
             <p>
                 Explore, built with Gatsby and Sanity, is a group travel booking website made with Gatsby with various destinations and a gallery of previous trips
             </p>
+        
         </div>
-        <div>
+    </div>
+        <div class="image_card">
+        <div class="image-left">
             <img src="https://djaunter.com/wp-content/uploads/2011/09/airline-alliance-logos-1.jpg" alt=" air">
+        </div>
+        <div class="image-right">
             <h4>Airline Alliance</h4>
             <p>
                 Single page application built with React that filters cards by alliance partner name. Airline logo, name, alliance partner, number, and URL data populated from JSON URL.
             </p>
         </div>
-        <div>
+    </div>
+    <div class="image_card">
+        <div class="image-left">
             <img src="https://www.meetup.com/blog/wp-content/uploads/2020/04/The-Future-of-Online-Events.jpg" alt=" air">
+        </div>
+            <div class="image-right">
             <h4>Event meetup app</h4>
             <p>
                 Single page application built with React that filters cards by alliance partner name. Airline logo, name, alliance partner, number, and URL data populated from JSON URL.
             </p>
         </div>
+        
     </div>
+
+
+    </section>
 </section>
 <section  id="nee" class="contact">
     <h4> contact me </h4>
-    <div>
+    <div class="informations">
         <h5>e-mail</h5>
         <p >amamisahar3@gmail.com </p>
         
         
     </div>
-    <div>
+    <div class="informations">
         <h5>number</h5>
         <p>0025487456</p>
         
     </div>
-    <div>
+    <div class="informations" >
         <h5>adress</h5>
         <p>royal's street residence N5 </p>
         
